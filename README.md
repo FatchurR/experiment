@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-    A["v1.0 Alpha<br>🗓️ 2024-05-10<br>🛠️ Initial prototype — setup Django, MySQL, login & register"]:::alpha --> 
+    A["v1.0 Alpha<br>📄 Fokus pada perancangan dan pengembangan awal project <br>🛠️ 1.Project Setup 2.Build Front End + Back End 3.Add Fitur Login Awal 4.Gallery         Page 5.Login/Register Page"]:::alpha --> 
     B["v1.5 Alpha<br>🗓️ 2024-05-25<br>⚙️ Added booking form & basic service table"]:::alpha -->
     C["v2.0 Alpha<br>🗓️ 2024-06-10<br>🧾 Introduced invoice generator & vehicle management"]:::alpha -->
     D["v2.5 Alpha<br>🗓️ 2024-06-25<br>💬 Added notification UI + refined dashboard layout"]:::alpha
