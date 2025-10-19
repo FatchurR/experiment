@@ -1,19 +1,38 @@
-## 🚀 FatchurR Apps Version Flow
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FatchurR Apps Version Flow</title>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+<style>
+body { font-family: 'Poppins', sans-serif; background:#0f172a; color:white; text-align:center; }
+h2 { color:#38bdf8; }
+</style>
+</head>
+<body>
+<h2>🚀 FatchurR Apps Version Timeline</h2>
 
-```mermaid
-flowchart LR
-    A[v1.0 Alpha]:::alpha --> B[v1.1 Beta]:::beta --> C[v2.0 Stable]:::release
-    C --> D[v3.0 Major Update]:::release
-    D --> E[v4.0 Feature Expansion]:::beta
-    E --> F[v5.0 Final Release 🚀]:::release
+<div class="mermaid">
+flowchart TD
+    v1["v1.0 Alpha"]:::alpha --> v2["v1.1 Beta"]:::beta --> v3["v2.0 Stable"]:::release
+    v3 --> v4["v3.0 Major Update"]:::release
+    v4 --> v5["v4.0 Feature Expansion"]:::beta
+    v5 --> v6["v5.0 Final Release 🚀"]:::release
 
-    click A "https://github.com/FatchurR/yourrepo/releases/tag/v1.0-alpha" "Lihat Patch v1.0 Alpha"
-    click B "https://github.com/FatchurR/yourrepo/releases/tag/v1.1-beta" "Lihat Patch v1.1 Beta"
-    click C "https://github.com/FatchurR/yourrepo/releases/tag/v2.0-stable" "Lihat Patch v2.0"
-    click D "https://github.com/FatchurR/yourrepo/releases/tag/v3.0" "Lihat Patch v3.0"
-    click E "https://github.com/FatchurR/yourrepo/releases/tag/v4.0-feature" "Lihat Patch v4.0"
-    click F "https://github.com/FatchurR/yourrepo/releases/tag/v5.0" "Lihat Patch v5.0"
+    click v1 "https://github.com/FatchurR/RepoName/releases/tag/v1.0-alpha" "Lihat Patch v1.0 Alpha"
+    click v2 "https://github.com/FatchurR/RepoName/releases/tag/v1.1-beta" "Lihat Patch v1.1 Beta"
+    click v3 "https://github.com/FatchurR/RepoName/releases/tag/v2.0-stable" "Lihat Patch v2.0"
+    click v4 "https://github.com/FatchurR/RepoName/releases/tag/v3.0" "Lihat Patch v3.0"
+    click v5 "https://github.com/FatchurR/RepoName/releases/tag/v4.0-feature" "Lihat Patch v4.0"
+    click v6 "https://github.com/FatchurR/RepoName/releases/tag/v5.0" "Lihat Patch v5.0"
 
-    classDef alpha fill:#ffe6cc,stroke:#ff9900,stroke-width:2px;
-    classDef beta fill:#ccf0ff,stroke:#0099ff,stroke-width:2px;
-    classDef release fill:#ccffcc,stroke:#33cc33,stroke-width:2px;
+    classDef alpha fill:#facc15,stroke:#eab308,stroke-width:2px;
+    classDef beta fill:#38bdf8,stroke:#0ea5e9,stroke-width:2px;
+    classDef release fill:#4ade80,stroke:#22c55e,stroke-width:2px;
+</div>
+
+</body>
+</html>
